@@ -25,7 +25,7 @@ export const config: Config = {
     },
     {
       type: 'docs-readme',
-      strict: true,
+      footer: 'Altitude UI',
       dir: 'docs',
     },
     {
