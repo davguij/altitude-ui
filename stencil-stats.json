@@ -1,0 +1,590 @@
+{
+  "timestamp": "2022-06-24T09:50:03",
+  "compiler": {
+    "name": "node",
+    "version": "16.15.0"
+  },
+  "app": {
+    "namespace": "AltitudeUi",
+    "fsNamespace": "altitude-ui",
+    "components": 2,
+    "entries": 2,
+    "bundles": 52,
+    "outputs": [
+      {
+        "name": "dist-collection",
+        "files": 3,
+        "generatedFiles": [
+          "./dist/collection/components/my-component/my-component.js",
+          "./dist/collection/components/wrapper/wrapper.js",
+          "./dist/collection/index.js"
+        ]
+      },
+      {
+        "name": "dist-custom-elements",
+        "files": 6,
+        "generatedFiles": [
+          "./dist/components/alti-wrapper.d.ts",
+          "./dist/components/alti-wrapper.js",
+          "./dist/components/index.d.ts",
+          "./dist/components/index.js",
+          "./dist/components/my-component.d.ts",
+          "./dist/components/my-component.js"
+        ]
+      },
+      {
+        "name": "dist-lazy",
+        "files": 40,
+        "generatedFiles": [
+          "./dist/altitude-ui/alti-wrapper.entry.js",
+          "./dist/altitude-ui/altitude-ui.esm.js",
+          "./dist/altitude-ui/app-globals-0f993ce5.js",
+          "./dist/altitude-ui/css-shim-60f618b9.js",
+          "./dist/altitude-ui/dom-4eeb3fee.js",
+          "./dist/altitude-ui/index-10b3d476.js",
+          "./dist/altitude-ui/index.esm.js",
+          "./dist/altitude-ui/my-component.entry.js",
+          "./dist/altitude-ui/shadow-css-02866686.js",
+          "./dist/cjs/alti-wrapper.cjs.entry.js",
+          "./dist/cjs/altitude-ui.cjs.js",
+          "./dist/cjs/app-globals-3a1e7e63.js",
+          "./dist/cjs/css-shim-e9231523.js",
+          "./dist/cjs/dom-7fb93981.js",
+          "./dist/cjs/index-f95eb4fc.js",
+          "./dist/cjs/index.cjs.js",
+          "./dist/cjs/loader.cjs.js",
+          "./dist/cjs/my-component.cjs.entry.js",
+          "./dist/cjs/shadow-css-abc19485.js",
+          "./dist/esm/alti-wrapper.entry.js",
+          "./dist/esm/altitude-ui.js",
+          "./dist/esm/app-globals-0f993ce5.js",
+          "./dist/esm/css-shim-60f618b9.js",
+          "./dist/esm/dom-4eeb3fee.js",
+          "./dist/esm/index-10b3d476.js",
+          "./dist/esm/index.js",
+          "./dist/esm/loader.js",
+          "./dist/esm/my-component.entry.js",
+          "./dist/esm/shadow-css-02866686.js",
+          "./dist/index.cjs.js",
+          "./dist/index.js",
+          "./www/build/alti-wrapper.entry.js",
+          "./www/build/altitude-ui.esm.js",
+          "./www/build/app-globals-0f993ce5.js",
+          "./www/build/css-shim-60f618b9.js",
+          "./www/build/dom-4eeb3fee.js",
+          "./www/build/index-10b3d476.js",
+          "./www/build/index.esm.js",
+          "./www/build/my-component.entry.js",
+          "./www/build/shadow-css-02866686.js"
+        ]
+      },
+      {
+        "name": "dist-types",
+        "files": 1,
+        "generatedFiles": [
+          "./dist/types/stencil-public-runtime.d.ts"
+        ]
+      },
+      {
+        "name": "www",
+        "files": 2,
+        "generatedFiles": [
+          "./www/host.config.json",
+          "./www/index.html"
+        ]
+      }
+    ]
+  },
+  "options": {
+    "minifyJs": false,
+    "minifyCss": false,
+    "hashFileNames": false,
+    "hashedFileNameLength": 8,
+    "buildEs5": false
+  },
+  "formats": {
+    "esmBrowser": [
+      {
+        "key": "alti-wrapper.entry",
+        "components": [
+          "alti-wrapper"
+        ],
+        "bundleId": "alti-wrapper",
+        "fileName": "alti-wrapper.entry.js",
+        "imports": [
+          "index-10b3d476.js"
+        ],
+        "originalByteSize": 2221
+      },
+      {
+        "key": "my-component.entry",
+        "components": [
+          "my-component"
+        ],
+        "bundleId": "my-component",
+        "fileName": "my-component.entry.js",
+        "imports": [
+          "index-10b3d476.js"
+        ],
+        "originalByteSize": 497
+      }
+    ],
+    "esm": [
+      {
+        "key": "alti-wrapper.entry",
+        "components": [
+          "alti-wrapper"
+        ],
+        "bundleId": "alti-wrapper",
+        "fileName": "alti-wrapper.entry.js",
+        "imports": [
+          "index-10b3d476.js"
+        ],
+        "originalByteSize": 2221
+      },
+      {
+        "key": "my-component.entry",
+        "components": [
+          "my-component"
+        ],
+        "bundleId": "my-component",
+        "fileName": "my-component.entry.js",
+        "imports": [
+          "index-10b3d476.js"
+        ],
+        "originalByteSize": 497
+      }
+    ],
+    "es5": [],
+    "system": [],
+    "commonjs": [
+      {
+        "key": "alti-wrapper.entry",
+        "components": [
+          "alti-wrapper"
+        ],
+        "bundleId": "alti-wrapper.cjs",
+        "fileName": "alti-wrapper.cjs.entry.js",
+        "imports": [
+          "index-f95eb4fc.js"
+        ],
+        "originalByteSize": 2290
+      },
+      {
+        "key": "my-component.entry",
+        "components": [
+          "my-component"
+        ],
+        "bundleId": "my-component.cjs",
+        "fileName": "my-component.cjs.entry.js",
+        "imports": [
+          "index-f95eb4fc.js"
+        ],
+        "originalByteSize": 572
+      }
+    ]
+  },
+  "components": [
+    {
+      "tag": "alti-wrapper",
+      "path": "./src/components/wrapper/wrapper.js",
+      "source": "./src/components/wrapper/wrapper.tsx",
+      "elementRef": null,
+      "componentClassName": "Wrapper",
+      "assetsDirs": [],
+      "dependencies": [],
+      "dependents": [],
+      "directDependencies": [],
+      "directDependents": [],
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "encapsulation": "shadow",
+      "excludeFromCollection": false,
+      "events": [],
+      "internal": false,
+      "legacyConnect": [],
+      "legacyContext": [],
+      "listeners": [],
+      "methods": [],
+      "potentialCmpRefs": [],
+      "properties": [],
+      "shadowDelegatesFocus": false,
+      "states": []
+    },
+    {
+      "tag": "my-component",
+      "path": "./src/components/my-component/my-component.js",
+      "source": "./src/components/my-component/my-component.tsx",
+      "elementRef": null,
+      "componentClassName": "MyComponent",
+      "assetsDirs": [],
+      "dependencies": [],
+      "dependents": [],
+      "directDependencies": [],
+      "directDependents": [],
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "encapsulation": "shadow",
+      "excludeFromCollection": false,
+      "events": [],
+      "internal": false,
+      "legacyConnect": [],
+      "legacyContext": [],
+      "listeners": [],
+      "methods": [],
+      "potentialCmpRefs": [],
+      "properties": [
+        {
+          "name": "first",
+          "type": "string",
+          "attribute": "first",
+          "reflect": false,
+          "mutable": false,
+          "required": false,
+          "optional": false,
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "docs": {
+            "tags": [],
+            "text": "The first name"
+          },
+          "internal": false
+        },
+        {
+          "name": "middle",
+          "type": "string",
+          "attribute": "middle",
+          "reflect": false,
+          "mutable": false,
+          "required": false,
+          "optional": false,
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "docs": {
+            "tags": [],
+            "text": "The middle name"
+          },
+          "internal": false
+        },
+        {
+          "name": "last",
+          "type": "string",
+          "attribute": "last",
+          "reflect": false,
+          "mutable": false,
+          "required": false,
+          "optional": false,
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "docs": {
+            "tags": [],
+            "text": "The last name"
+          },
+          "internal": false
+        }
+      ],
+      "shadowDelegatesFocus": false,
+      "states": []
+    }
+  ],
+  "entries": [
+    {
+      "cmps": [
+        {
+          "tagName": "alti-wrapper",
+          "excludeFromCollection": false,
+          "isCollectionDependency": false,
+          "componentClassName": "Wrapper",
+          "elementRef": null,
+          "encapsulation": "shadow",
+          "shadowDelegatesFocus": false,
+          "properties": [],
+          "virtualProperties": [],
+          "states": [],
+          "methods": [],
+          "listeners": [],
+          "events": [],
+          "watchers": [],
+          "styles": [
+            {
+              "modeName": "$",
+              "styleId": "ALTI-WRAPPER",
+              "styleStr": null,
+              "styleIdentifier": "altiWrapperStyle",
+              "externalStyles": [
+                {
+                  "absolutePath": "/Users/davidguijarro/Documents/_/altitude-ui/src/components/wrapper/wrapper.css",
+                  "relativePath": "wrapper.css",
+                  "originalComponentPath": "wrapper.css"
+                }
+              ]
+            }
+          ],
+          "legacyConnect": [],
+          "legacyContext": [],
+          "internal": false,
+          "assetsDirs": [],
+          "styleDocs": [],
+          "docs": {
+            "tags": [],
+            "text": ""
+          },
+          "jsFilePath": "/Users/davidguijarro/Documents/_/altitude-ui/src/components/wrapper/wrapper.js",
+          "sourceFilePath": "/Users/davidguijarro/Documents/_/altitude-ui/src/components/wrapper/wrapper.tsx",
+          "sourceMapPath": null,
+          "hasAttributeChangedCallbackFn": false,
+          "hasComponentWillLoadFn": false,
+          "hasComponentDidLoadFn": false,
+          "hasComponentShouldUpdateFn": false,
+          "hasComponentWillUpdateFn": false,
+          "hasComponentDidUpdateFn": false,
+          "hasComponentWillRenderFn": false,
+          "hasComponentDidRenderFn": false,
+          "hasComponentDidUnloadFn": false,
+          "hasConnectedCallbackFn": false,
+          "hasDisconnectedCallbackFn": false,
+          "hasElement": false,
+          "hasEvent": false,
+          "hasLifecycle": false,
+          "hasListener": false,
+          "hasListenerTarget": false,
+          "hasListenerTargetWindow": false,
+          "hasListenerTargetDocument": false,
+          "hasListenerTargetBody": false,
+          "hasListenerTargetParent": false,
+          "hasMember": false,
+          "hasMethod": false,
+          "hasMode": false,
+          "hasAttribute": false,
+          "hasProp": false,
+          "hasPropNumber": false,
+          "hasPropBoolean": false,
+          "hasPropString": false,
+          "hasPropMutable": false,
+          "hasReflect": false,
+          "hasRenderFn": true,
+          "hasState": false,
+          "hasStyle": true,
+          "hasVdomAttribute": false,
+          "hasVdomXlink": false,
+          "hasVdomClass": false,
+          "hasVdomFunctional": false,
+          "hasVdomKey": false,
+          "hasVdomListener": false,
+          "hasVdomPropOrAttr": false,
+          "hasVdomRef": false,
+          "hasVdomRender": true,
+          "hasVdomStyle": false,
+          "hasVdomText": false,
+          "hasWatchCallback": false,
+          "isPlain": false,
+          "htmlAttrNames": [],
+          "htmlTagNames": [
+            "slot"
+          ],
+          "htmlParts": [],
+          "isUpdateable": false,
+          "potentialCmpRefs": [],
+          "directDependencies": [],
+          "dependencies": [],
+          "dependents": [],
+          "directDependents": []
+        }
+      ],
+      "entryKey": "alti-wrapper.entry"
+    },
+    {
+      "cmps": [
+        {
+          "tagName": "my-component",
+          "excludeFromCollection": false,
+          "isCollectionDependency": false,
+          "componentClassName": "MyComponent",
+          "elementRef": null,
+          "encapsulation": "shadow",
+          "shadowDelegatesFocus": false,
+          "properties": [
+            {
+              "name": "first",
+              "type": "string",
+              "attribute": "first",
+              "reflect": false,
+              "mutable": false,
+              "required": false,
+              "optional": false,
+              "complexType": {
+                "original": "string",
+                "resolved": "string",
+                "references": {}
+              },
+              "docs": {
+                "tags": [],
+                "text": "The first name"
+              },
+              "internal": false
+            },
+            {
+              "name": "middle",
+              "type": "string",
+              "attribute": "middle",
+              "reflect": false,
+              "mutable": false,
+              "required": false,
+              "optional": false,
+              "complexType": {
+                "original": "string",
+                "resolved": "string",
+                "references": {}
+              },
+              "docs": {
+                "tags": [],
+                "text": "The middle name"
+              },
+              "internal": false
+            },
+            {
+              "name": "last",
+              "type": "string",
+              "attribute": "last",
+              "reflect": false,
+              "mutable": false,
+              "required": false,
+              "optional": false,
+              "complexType": {
+                "original": "string",
+                "resolved": "string",
+                "references": {}
+              },
+              "docs": {
+                "tags": [],
+                "text": "The last name"
+              },
+              "internal": false
+            }
+          ],
+          "virtualProperties": [],
+          "states": [],
+          "methods": [],
+          "listeners": [],
+          "events": [],
+          "watchers": [],
+          "styles": [
+            {
+              "modeName": "$",
+              "styleId": "MY-COMPONENT",
+              "styleStr": null,
+              "styleIdentifier": "myComponentStyle",
+              "externalStyles": [
+                {
+                  "absolutePath": "/Users/davidguijarro/Documents/_/altitude-ui/src/components/my-component/my-component.css",
+                  "relativePath": "my-component.css",
+                  "originalComponentPath": "my-component.css"
+                }
+              ]
+            }
+          ],
+          "legacyConnect": [],
+          "legacyContext": [],
+          "internal": false,
+          "assetsDirs": [],
+          "styleDocs": [],
+          "docs": {
+            "tags": [],
+            "text": ""
+          },
+          "jsFilePath": "/Users/davidguijarro/Documents/_/altitude-ui/src/components/my-component/my-component.js",
+          "sourceFilePath": "/Users/davidguijarro/Documents/_/altitude-ui/src/components/my-component/my-component.tsx",
+          "sourceMapPath": null,
+          "hasAttributeChangedCallbackFn": false,
+          "hasComponentWillLoadFn": false,
+          "hasComponentDidLoadFn": false,
+          "hasComponentShouldUpdateFn": false,
+          "hasComponentWillUpdateFn": false,
+          "hasComponentDidUpdateFn": false,
+          "hasComponentWillRenderFn": false,
+          "hasComponentDidRenderFn": false,
+          "hasComponentDidUnloadFn": false,
+          "hasConnectedCallbackFn": false,
+          "hasDisconnectedCallbackFn": false,
+          "hasElement": false,
+          "hasEvent": false,
+          "hasLifecycle": false,
+          "hasListener": false,
+          "hasListenerTarget": false,
+          "hasListenerTargetWindow": false,
+          "hasListenerTargetDocument": false,
+          "hasListenerTargetBody": false,
+          "hasListenerTargetParent": false,
+          "hasMember": true,
+          "hasMethod": false,
+          "hasMode": false,
+          "hasAttribute": true,
+          "hasProp": true,
+          "hasPropNumber": false,
+          "hasPropBoolean": false,
+          "hasPropString": true,
+          "hasPropMutable": false,
+          "hasReflect": false,
+          "hasRenderFn": true,
+          "hasState": false,
+          "hasStyle": true,
+          "hasVdomAttribute": true,
+          "hasVdomXlink": false,
+          "hasVdomClass": true,
+          "hasVdomFunctional": false,
+          "hasVdomKey": false,
+          "hasVdomListener": false,
+          "hasVdomPropOrAttr": false,
+          "hasVdomRef": false,
+          "hasVdomRender": true,
+          "hasVdomStyle": false,
+          "hasVdomText": true,
+          "hasWatchCallback": false,
+          "isPlain": false,
+          "htmlAttrNames": [
+            "class"
+          ],
+          "htmlTagNames": [
+            "div",
+            "p"
+          ],
+          "htmlParts": [],
+          "isUpdateable": true,
+          "potentialCmpRefs": [],
+          "directDependencies": [],
+          "dependencies": [],
+          "dependents": [],
+          "directDependents": []
+        }
+      ],
+      "entryKey": "my-component.entry"
+    }
+  ],
+  "componentGraph": {
+    "sc-alti-wrapper": [
+      "index-10b3d476.js"
+    ],
+    "sc-my-component": [
+      "index-10b3d476.js"
+    ]
+  },
+  "sourceGraph": {
+    "./src/components/my-component/my-component.tsx": [],
+    "./src/components/wrapper/wrapper.tsx": [],
+    "./src/index.ts": []
+  },
+  "collections": []
+}

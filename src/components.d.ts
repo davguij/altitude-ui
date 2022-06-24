@@ -6,7 +6,7 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface AuiWrapper {
+    interface AltiWrapper {
     }
     interface MyComponent {
         /**
@@ -24,11 +24,11 @@ export namespace Components {
     }
 }
 declare global {
-    interface HTMLAuiWrapperElement extends Components.AuiWrapper, HTMLStencilElement {
+    interface HTMLAltiWrapperElement extends Components.AltiWrapper, HTMLStencilElement {
     }
-    var HTMLAuiWrapperElement: {
-        prototype: HTMLAuiWrapperElement;
-        new (): HTMLAuiWrapperElement;
+    var HTMLAltiWrapperElement: {
+        prototype: HTMLAltiWrapperElement;
+        new (): HTMLAltiWrapperElement;
     };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
@@ -37,12 +37,12 @@ declare global {
         new (): HTMLMyComponentElement;
     };
     interface HTMLElementTagNameMap {
-        "aui-wrapper": HTMLAuiWrapperElement;
+        "alti-wrapper": HTMLAltiWrapperElement;
         "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
-    interface AuiWrapper {
+    interface AltiWrapper {
     }
     interface MyComponent {
         /**
@@ -59,7 +59,7 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface IntrinsicElements {
-        "aui-wrapper": AuiWrapper;
+        "alti-wrapper": AltiWrapper;
         "my-component": MyComponent;
     }
 }
@@ -67,7 +67,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "aui-wrapper": LocalJSX.AuiWrapper & JSXBase.HTMLAttributes<HTMLAuiWrapperElement>;
+            "alti-wrapper": LocalJSX.AltiWrapper & JSXBase.HTMLAttributes<HTMLAltiWrapperElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
     }
